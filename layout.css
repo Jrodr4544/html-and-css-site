@@ -1,5 +1,50 @@
 /* CSS File */
 
-h1 {
+h1,h2 {
     font-family: Papyrus;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navbar-items {
+    float: left;
+}
+
+li.navbar-items a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-items a:hover {
+    background-color: #111;
+}
+
+.inline {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.block {
+    display: block;
+    border: 1px solid black;
+}
+
+form fieldset input {
+    padding: 5px;
+    margin: 2px;
+}
+
+form legend {
+    border: 1px solid black;
+    padding: 5px;
 }
